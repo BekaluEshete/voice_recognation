@@ -18,7 +18,7 @@ CHANNELS = 1
 RATE = 16000
 RECORD_SECONDS = 5
 OUTPUT_FILENAME = "output.wav"
-DATASET_PATH = 'archive'  # Path to your RAVDESS dataset folder
+DATASET_PATH = 'archive'  # Path to RAVDESS dataset folder
 EMOTIONS = ['neutral', 'calm', 'happy', 'sad', 'angry', 'fearful', 'disgust', 'surprised']  # RAVDESS emotions
 
 def extract_features_from_file(file_path):
